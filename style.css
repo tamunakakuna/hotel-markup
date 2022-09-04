@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray !important;
+}
+main{
+    min-height: calc(100vh - 98px);
+}
+footer{
+    min-height: 80px;;
+}
+.essential-nav-partial{
+    color: white;
+    min-height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header-icon-partial{
+    margin-left: 10px;
+}
+.social-item{
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+
+}
+.social-item:hover{
+    color:lightgray;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    color:lightgray;
+}
+.desc{
+    width:70%;
+    height: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: -5px 5px 25px black;
+    padding: 10px;
+    position: relative;
+    top:-10%;
+    left:15%;
+    
+}
+.desc > a {
+    position: absolute;
+    left: 30%;
+    bottom: 10px;
+
+}
+.price{
+    position: absolute;
+    left:45%;
+}
+section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
